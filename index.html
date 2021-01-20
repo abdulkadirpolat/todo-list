@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="/css/app.css" />
+
+   
+    <script src="https://kit.fontawesome.com/42b86c7a35.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-row">
+        <div class="card-text">Todo List</div>
+        <div class="card-head">
+          <form class="form">
+            <div class="input">
+              <input
+                type="text"
+                name="todo"
+                id="todo"
+                class="todo-add"
+                placeholder="Create new todo"
+              />
+            </div>
+
+            <button type="submit" class="button">Todo Ekleyin</button>
+          </form>
+        </div>
+        <div class="card-body">
+          <hr />
+          <div class="card-title">Todolar</div>
+          <input
+            type="text"
+            name="not"
+            id="key"
+            placeholder="Search todo list"
+            style="margin-left: 20px"
+          />
+          <hr />
+          <ul class="list-group"></ul>
+          <a href="#" id="clear-todo">Tüm Veriyi Temizle</a>
+        </div>
+      </div>
+    </div>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

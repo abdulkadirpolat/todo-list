@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+}
+
+body {
+    font-size: 18px;
+    font-family: "Maven Pro", sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: .75rem 1.25rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    padding: .75rem 1.25rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.card-row {
+    box-shadow: 10px 10px rgba(99, 153, 184, 0.5);
+    border-radius: 4px;
+    width: 1140px;
+    max-width: 1140px;
+    min-height: 415px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    background-color: rgba(94, 198, 206, 0.719);
+}
+
+
+.card-row>.card-head,
+.card-body {
+    margin: 0px 20px 10px 20px;
+    min-height: 155px;
+}
+
+.card-text {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.192);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+input {
+    font-size: 18px;
+    padding: 0.5em;
+    width: 500px;
+    max-width: 500px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 4px;
+}
+
+input:hover {
+
+    background-color: rgba(204, 205, 207, 0.774);
+
+}
+
+.button {
+    font-size: 17px;
+    padding: 0.5rem;
+    max-width: 120px;
+    background-color: rgba(57, 131, 23, 0.932);
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+}
+
+.button:hover {
+    margin-left: 1px;
+    transition: 500ms;
+    background-color: rgba(80, 241, 16, 0.932);
+}
+
+ul {
+
+    overflow: auto;
+    max-height: 195px;
+    margin: 0px 20px 20px 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.158);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+li {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+    max-height: 50px;
+
+}
+
+li:hover {
+
+    background-color: rgba(235, 183, 232, 0.603);
+}
+
+
+li:not(:nth-last-child(1)) {
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.158);
+
+}
+
+#clear-todo {
+    border-radius: 4px;
+    padding: 0.5em;
+    background-color: rgba(23, 145, 7, 0.945);
+    color: white;
+    margin-left: 20px;
+
+
+}
+
+#clear-todo:hover {
+    padding: 0.6em;
+    transition: 300ms;
+    background-color: rgba(226, 38, 13, 0.945);
+
+}
+
+hr {
+    background-color: rgba(0, 0, 0, 0.158);
+    height: 1px;
+    margin: 0px 20px 10px 20px;
+}
+
+.card-title {
+    font-size: 21px;
+    font-weight: 550;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.card-body {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+i {
+    margin-left: 10px;
+    font-size: 15px;
+    color: rgb(201, 37, 37);
+}
+
+i:hover {
+    transition: 300ms;
+    font-size: 18px;
+    color: rgb(255, 0, 0);
+}
